@@ -12,7 +12,7 @@ case "${unameOut}" in
     *)          os="UNKNOWN:${unameOut}"
 esac
 
-url="https://github.com/instrumenta/kubeval/releases/download/${version}/kubeval-${os}-amd64.tar.gz"
+url="https://github.com/instrumenta/kubeval/releases/latest/download/kubeval-${os}-amd64.tar.gz"
 
 if [ "$url" = "" ]
 then
